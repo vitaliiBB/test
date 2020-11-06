@@ -1,0 +1,76 @@
+@import "../color";
+.section-6 {
+  padding: 85px 0 100px;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  @media(min-width: 1301px) {
+    .slick-list {
+      margin-right: -70px;
+      margin-left: -25px;
+
+      .slick-track {
+      }
+    }
+
+    .comment-slider-wrap {
+
+      .comment-slide-box {
+        margin-right: 30px;
+      }
+    }
+
+  }
+
+
+  .comment-slider-wrap {
+
+    .comment-slide-box {
+      text-align: center;
+      padding: 10px 40px 0;
+
+      .avatar-wrap {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+
+        .avatar-box {
+          height: 140px;
+          width: 140px;
+          overflow: hidden;
+          border-radius: 50%;
+
+          &.gray_ {
+            filter: grayscale(50%);
+          }
+
+          img {
+            min-height: 140px;
+          }
+        }
+      }
+
+      h4 {
+        margin-bottom: 24px;
+      }
+
+      p {
+        &.content {
+          margin-bottom: 32px;
+        }
+
+        &.caption {
+          margin-bottom: 45px;
+        }
+      }
+
+      .icon-box {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}

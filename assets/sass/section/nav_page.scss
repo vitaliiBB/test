@@ -1,0 +1,55 @@
+@import "../color";
+
+.nav-page {
+  position: fixed;
+  right: 0;
+  top: 20%;
+  z-index: 100;
+
+  ul {
+    padding-left: 0;
+    margin-right: 16px;
+
+    li {
+      list-style: none;
+      margin-bottom: 16px;
+      text-align: right;
+
+      &.active {
+        position: relative;
+        padding-right: 34px;
+
+        &:before {
+
+          content: "";
+          position: absolute;
+          right: 0;
+          width: 32px;
+          height: 1px;
+          background: $c-black;
+          top: 50%;
+        }
+      }
+
+      a {
+        color: $c-black;
+
+      }
+    }
+  }
+
+  &.-light {
+    ul li {
+      &.active {
+        &:before {
+          background: $c-white;
+        }
+      }
+
+      a {
+        color: $c-white;
+      }
+    }
+
+  }
+}

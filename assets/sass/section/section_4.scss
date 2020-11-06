@@ -1,0 +1,20 @@
+@import "../color";
+.section-4 {
+  @media(min-width: 1201px) {
+    padding-bottom: 70px;
+  }
+
+  h2 {
+    color: $c-black;
+    margin-bottom: 50px;
+    padding-left: 14px;
+  }
+
+  .card-wrap {
+    padding-top: 10px;
+
+    .card {
+      margin-bottom: 24px;
+    }
+  }
+}

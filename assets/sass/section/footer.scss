@@ -1,0 +1,58 @@
+@import "../color";
+
+footer.footer_page {
+  display: flex;
+  flex-direction: column;
+
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+      color: $c-black;
+    }
+  }
+
+  .first-box {
+    border-top: 2px solid $c-gray;
+
+    .wrap {
+      min-height: 100px;
+    }
+  }
+
+  .last-box {
+
+    border-top: 2px solid #d1d1d1;
+
+    .wrap {
+      height: 90px;
+    }
+
+    .wrap-link {
+      a {
+        margin-left: 90px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  @media(max-width: 990px) {
+    .wrap {
+      padding: 0 15px;
+    }
+  }
+  @media(max-width: 767px) {
+  }
+  @media(max-width: 575px) {
+    .wrap {
+      flex-direction: column-reverse;
+      justify-content: space-around;
+    }
+
+  }
+}

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro/myriadpro-regular.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/MyriadPro/myriadpro-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+  url('../fonts/MyriadPro/myriadpro-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/MyriadPro/myriadpro-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+  url('../fonts/MyriadPro/myriadpro-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/MyriadPro/myriadpro-regular.svg#myriadpro-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyriadPro';
+  src: url('../fonts/MyriadPro/myriadpro-bold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/MyriadPro/myriadpro-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+  url('../fonts/MyriadPro/myriadpro-bold.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/MyriadPro/myriadpro-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+  url('../fonts/MyriadPro/myriadpro-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/MyriadPro/myriadpro-bold.svg#myriadpro-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+
+  font-weight: 700;
+  font-style: normal;
+}

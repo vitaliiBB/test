@@ -1,0 +1,71 @@
+@import "../color";
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0 40px;
+  color: #000000;
+  font-family: 'Aleo', serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  line-height: 48px;
+  transition: opacity ease .2s;
+  @media(max-width: 575px) {
+    line-height: 3em;
+    font-size: 12px;
+
+  }
+
+  &:hover {
+    opacity: .7;
+    cursor: pointer;
+  }
+
+  &.btn-outline {
+    border-color: $c-grayLight;
+
+  }
+
+  &.btn-primary {
+    border-color: $c-black;
+    background-color: $c-black;
+    color: $c-white;
+    font-weight: bold;
+  }
+
+  &.btn-icon {
+    padding: 0;
+    line-height: unset;
+    font-size: unset;
+    display: flex;
+    align-items: center;
+  }
+
+  &.btn-dropdown {
+    color: $c-black;
+    line-height: unset;
+    text-transform: capitalize;
+    font-family: inherit;
+    font-size: inherit;
+    outline: unset;
+    border: unset;
+
+  }
+}
+
+button {
+  &:focus,
+  &:active,
+  &:active:focus {
+  }
+}

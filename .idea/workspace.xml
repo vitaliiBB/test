@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1ae1687-2773-462f-bd0b-04aba7a8f04b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1isFAFRo4B6EcWC4lwkA0qggDKq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/sass/element" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\resume\test\assets\sass\element" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\resume\test\assets\sass\element" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1ae1687-2773-462f-bd0b-04aba7a8f04b" name="Default Changelist" comment="" />
+      <created>1602688249690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602688249690</updated>
+      <workItem from="1602688255693" duration="20505000" />
+      <workItem from="1602724659582" duration="16460000" />
+      <workItem from="1603097729961" duration="3404000" />
+      <workItem from="1603708179231" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2490" y="281" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602688647116">
+      <screen x="1920" y="29" width="1680" height="1010" />
+    </state>
+    <state x="2490" y="281" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.29.1680.1010/0.0.1920.1040@1920.29.1680.1010" timestamp="1602688647116" />
+    <state x="2540" y="289" key="FileChooserDialogImpl" timestamp="1602689328478">
+      <screen x="1920" y="29" width="1680" height="1010" />
+    </state>
+    <state x="2540" y="289" key="FileChooserDialogImpl/1920.29.1680.1010/0.0.1920.1040@1920.29.1680.1010" timestamp="1602689328478" />
+    <state x="2467" y="267" width="585" height="592" key="find.popup" timestamp="1602860867636">
+      <screen x="1920" y="29" width="1680" height="1010" />
+    </state>
+    <state x="2467" y="267" width="585" height="592" key="find.popup/1920.29.1680.1010/0.0.1920.1040@1920.29.1680.1010" timestamp="1602860867636" />
+    <state x="2416" y="247" key="run.anything.popup" timestamp="1602712471982">
+      <screen x="1920" y="29" width="1680" height="1010" />
+    </state>
+    <state x="2416" y="247" key="run.anything.popup/1920.29.1680.1010/0.0.1920.1040@1920.29.1680.1010" timestamp="1602712471982" />
+  </component>
+</project>

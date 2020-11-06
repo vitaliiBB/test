@@ -1,0 +1,21 @@
+@import "../color";
+
+.nav {
+  list-style: none;
+  display: flex;
+  margin: 0 -14px;
+  padding-left: 0;
+
+
+  li {
+    margin: 0 14px;
+    color: $c-black;
+    font-family: 'Aleo', serif;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+  }
+}

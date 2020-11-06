@@ -1,0 +1,55 @@
+@import "../color";
+
+.dropdown {
+  position: relative;
+
+  .dropdown-menu {
+    display: none;
+    margin-top: -1px;
+    background-color: $c-white;
+    color: $c-black;
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    min-width: 130px;
+    padding: 0;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.08);
+    @media (min-width: 1260px) {
+      right: -46px;
+
+    }
+
+    li {
+      margin: 0;
+
+      font-family: 'Aleo', serif;
+      font-weight: 300;
+      font-style: normal;
+      letter-spacing: 0.3px;
+      line-height: normal;
+      text-transform: capitalize;
+
+      a {
+
+        line-height: 30px;
+        text-decoration: none;
+        text-align: center;
+        padding: 0 8px;
+        width: 100%;
+        display: block;
+
+        transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+
+        &:hover {
+          background: $c-whiteSmoky;
+
+          transition: all .3s ease-in-out;
+          -moz-transition: all .3s ease-in-out;
+          -webkit-transition: all .3s ease-in-out;
+        }
+      }
+    }
+  }
+}
